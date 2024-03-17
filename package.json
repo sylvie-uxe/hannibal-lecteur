@@ -2,9 +2,9 @@
   "name": "hannibal-lecteur",
   "version": "4.2.0",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"astro dev\"",
     "start": "astro dev",
-    "build": "astro check && astro build && jampack ./dist",
+    "build": "tinacms build && astro check && astro build && jampack ./dist",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
