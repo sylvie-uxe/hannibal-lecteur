@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>I have in ze bilouque</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,25 +42,19 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Salut toi ! N'aies pas peur, entre. Fais comme chez toi !
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        Bienvenue sur mon blog. Je suis S. Je suis Française et je vis aux States depuis plus de 10 ans.
+      </p>
+      <p>
+        Ce blog, c'est du grand n'importe quoi. Mon objectif premier est de pratiquer l'écriture, le second est de partager mon expérience de vie aux Etats-Unis, et le troisième est notre objectif à tous : to have fun!!!
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">Retrouve-moi sur:</div>
             <Socials />
           </div>
         )
